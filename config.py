@@ -50,6 +50,8 @@ def get_embeddings():
     """
     if PROVIDER == "openai":
         from langchain_openai import OpenAIEmbeddings
+        if not os.getenv("OPENAI_API_KEY"):
+            raise EnvironmentError("OPENAI_API_KEY is required when PROVIDER=openai")
         # text-embedding-3-small: great balance of quality and cost
         return OpenAIEmbeddings(model="text-embedding-3-small")
 
