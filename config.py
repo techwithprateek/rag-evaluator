@@ -21,16 +21,20 @@ def get_llm():
     """
     if PROVIDER == "openai":
         from langchain_openai import ChatOpenAI
+        if not os.getenv("OPENAI_API_KEY"):
+            raise EnvironmentError("OPENAI_API_KEY is required when PROVIDER=openai")
         # gpt-4o-mini is fast and cheap — ideal for this kind of pipeline
         return ChatOpenAI(model="gpt-4o-mini", temperature=0)
 
     elif PROVIDER == "huggingface":
         from langchain_huggingface import HuggingFaceEndpoint
+        if not os.getenv("HUGGINGFACEHUB_API_TOKEN"):
+            raise EnvironmentError("HUGGINGFACEHUB_API_TOKEN is required when PROVIDER=huggingface")
         # HuggingFaceEndpoint calls the HF Inference API — no local GPU needed
         # Mistral-7B is a strong open-source instruction-following model
         return HuggingFaceEndpoint(
             repo_id="mistralai/Mistral-7B-Instruct-v0.3",
-            temperature=0.1,
+            temperature=0.0,
             max_new_tokens=512,
         )
 
