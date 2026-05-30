@@ -75,7 +75,7 @@ Wikipedia Articles (5 AI topics)
 
 ### RAG Pipeline
 - **Documents**: 5 Wikipedia articles on AI topics (~952 chunks)
-- **Chunking**: `RecursiveCharacterTextSplitter` — 500 tokens, 50 overlap
+- **Chunking**: `RecursiveCharacterTextSplitter` — 500 characters, 50 overlap
 - **Embeddings**: `text-embedding-3-small` (OpenAI) or `all-MiniLM-L6-v2` (HuggingFace)
 - **Vector Store**: ChromaDB (local, no infra needed)
 - **Retrieval**: Top-3 most similar chunks per question
