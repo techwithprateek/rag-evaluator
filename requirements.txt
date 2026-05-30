@@ -1,0 +1,14 @@
+langchain
+langchain-community
+langchain-openai
+langchain-huggingface
+langchain-text-splitters
+langchain-chroma
+chromadb
+wikipedia
+openai
+sentence-transformers
+ragas
+datasets
+python-dotenv
+pandas
