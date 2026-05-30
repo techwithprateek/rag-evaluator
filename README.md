@@ -98,7 +98,7 @@ Wikipedia Articles (5 AI topics)
 | LLM (RAG) | OpenAI `gpt-4o-mini` / HuggingFace `Mistral-7B` |
 | Embeddings | OpenAI `text-embedding-3-small` / `all-MiniLM-L6-v2` |
 | Evaluation | RAGAS 0.4 |
-| Evaluator LLM | OpenAI `gpt-4o-mini` |
+| Evaluator LLM | Provider-selected: OpenAI `gpt-4o-mini` / HuggingFace `Mistral-7B-Instruct-v0.3` |
 | Output Format | JSON (RAG outputs) + CSV (scores) |
 
 ---
