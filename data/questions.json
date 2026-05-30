@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is artificial intelligence?",
+    "ground_truth": "Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. It involves capabilities such as learning, reasoning, problem-solving, perception, and language understanding."
+  },
+  {
+    "question": "What are the main types of machine learning?",
+    "ground_truth": "The main types of machine learning are supervised learning, where models learn from labeled data; unsupervised learning, where models find patterns in unlabeled data; and reinforcement learning, where an agent learns through reward-based feedback."
+  },
+  {
+    "question": "What is deep learning and how does it relate to neural networks?",
+    "ground_truth": "Deep learning is a subset of machine learning that uses artificial neural networks with many layers to learn hierarchical representations of data. It relies on multi-layered architectures called deep neural networks to model complex patterns."
+  },
+  {
+    "question": "What is natural language processing used for?",
+    "ground_truth": "Natural language processing (NLP) is used to enable computers to understand, interpret, and generate human language. Applications include machine translation, sentiment analysis, chatbots, speech recognition, and text summarization."
+  },
+  {
+    "question": "What are large language models?",
+    "ground_truth": "Large language models (LLMs) are AI systems trained on massive text datasets using deep learning, particularly transformer architectures. They can generate coherent text, answer questions, summarize content, and perform a wide range of language tasks."
+  },
+  {
+    "question": "What is the Turing test?",
+    "ground_truth": "The Turing test, proposed by Alan Turing in 1950, is a test of a machine's ability to exhibit intelligent behavior indistinguishable from that of a human. A human evaluator interacts with both a human and a machine and tries to identify which is which."
+  },
+  {
+    "question": "What is reinforcement learning?",
+    "ground_truth": "Reinforcement learning is a type of machine learning in which an agent learns to make decisions by interacting with an environment and receiving rewards or penalties. The goal is to learn a policy that maximizes cumulative reward over time."
+  },
+  {
+    "question": "What is the transformer architecture in AI?",
+    "ground_truth": "The transformer is a deep learning architecture based on the self-attention mechanism, introduced in the 2017 paper 'Attention Is All You Need'. It forms the foundation of large language models such as GPT and BERT."
+  },
+  {
+    "question": "What is supervised learning?",
+    "ground_truth": "Supervised learning is a type of machine learning where a model is trained on labeled input-output pairs. The model learns to map inputs to outputs, and is evaluated on how well it predicts outputs for unseen inputs."
+  },
+  {
+    "question": "What are some real-world applications of artificial intelligence?",
+    "ground_truth": "Real-world applications of AI include natural language processing, computer vision, autonomous vehicles, healthcare diagnostics, recommendation systems, fraud detection, robotics, and game playing."
+  }
+]
