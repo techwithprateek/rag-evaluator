@@ -16,10 +16,7 @@ from ragas import evaluate
 
 # Import the 4 metric singleton instances from RAGAS
 # These are pre-configured metric objects that know how to score each dimension
-from ragas.metrics._faithfulness import faithfulness
-from ragas.metrics._answer_relevance import answer_relevancy
-from ragas.metrics._context_precision import context_precision
-from ragas.metrics._context_recall import context_recall
+from ragas.metrics import faithfulness, answer_relevancy, context_precision, context_recall
 
 # RAGAS needs its own LLM/embeddings wrappers — it doesn't use LangChain objects directly.
 # LangchainLLMWrapper adapts a LangChain LLM so RAGAS can use it as the judge.
