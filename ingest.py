@@ -91,7 +91,7 @@ def ingest():
         persist_directory=CHROMA_PATH,
     )
 
-    print(f"✓ ChromaDB created at '{CHROMA_PATH}' with {vectorstore._collection.count()} vectors")
+    print(f"✓ ChromaDB created at '{CHROMA_PATH}' with {len(chunks)} vectors")
 
 
 if __name__ == "__main__":
