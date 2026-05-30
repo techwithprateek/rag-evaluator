@@ -19,7 +19,7 @@ CHROMA_PATH = "chroma_db"
 QUESTIONS_FILE = "data/questions.json"
 OUTPUTS_FILE = "outputs/rag_outputs.json"
 
-# The system prompt constrains the LLM to only use retrieved context.
+# The prompt constrains the LLM to only use retrieved context.
 # "If the answer is not in the context, say I don't know" prevents hallucination
 # and keeps faithfulness scores honest — we don't want the model to rely on
 # its own training data instead of what was retrieved.
