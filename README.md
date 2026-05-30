@@ -82,7 +82,7 @@ Wikipedia Articles (5 AI topics)
 - **LLM**: `gpt-4o-mini` (OpenAI) or `Mistral-7B-Instruct-v0.3` (HuggingFace)
 
 ### RAGAS Evaluation
-- **Evaluator LLM**: `gpt-4o-mini` acting as judge
+- **Evaluator LLM**: the provider-selected LLM (`gpt-4o-mini` for OpenAI, `Mistral-7B-Instruct-v0.3` for HuggingFace) acting as judge
 - **Input**: question + generated answer + retrieved contexts + ground truth
 - **Output**: per-sample scores for all 4 metrics → averaged and saved to CSV
 
