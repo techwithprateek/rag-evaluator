@@ -48,7 +48,7 @@ RAGAS is an **LLM-as-a-judge** evaluation framework. Here's what makes it powerf
 
 - **No labels required at inference time** — it only looks at inputs and outputs, not how the pipeline was built
 - **Model-agnostic** — works with any RAG architecture (LangChain, LlamaIndex, custom, etc.)
-- **Uses an LLM as the evaluator** — in this project, **GPT-4o-mini** scores each metric by reasoning over the question, answer, context, and ground truth
+- **Uses an LLM as the evaluator** — this project uses the currently selected `PROVIDER` model (OpenAI `gpt-4o-mini` or HuggingFace `Mistral-7B-Instruct-v0.3`) to score each metric by reasoning over the question, answer, context, and ground truth
 - **Reproducible** — the same dataset always gives you comparable scores, so you can track improvements over time
 
 ---
